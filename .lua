@@ -779,7 +779,7 @@ do
                 --
 local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
                 if (tick() - Tick) > 0.15 then
-                    watermark_title.Text = string.format("beamed.solutions | ms = %s | fps = %u | ".."%X".."%p"" "..GameName, library.shared.ping, library.shared.fps)
+                    watermark_title.Text = string.format("beamed.solutions | ms = %s | fps = %u | "..GameName, library.shared.ping, library.shared.fps)
                     window.watermark:UpdateSize()
                     --
                     Tick = tick()
